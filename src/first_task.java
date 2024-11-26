@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Main {
+public class first_task {
     public static void main(String[] args) {
         String input = "Hello, World! 123";
 
