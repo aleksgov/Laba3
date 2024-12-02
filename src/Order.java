@@ -1,20 +1,14 @@
-
-
 public class Order {
-    int orderId;
-    String customer;
-    double amount;
-    String status;
+    private int orderId;
+    private String customer;
+    private double amount;
+    private String status;
 
     public Order(int orderId, String customer, double amount, String status) {
         this.orderId = orderId;
         this.customer = customer;
         this.amount = amount;
         this.status = status;
-    }
-
-    public int getOrderId() {
-        return orderId;
     }
 
     public String getCustomer() {
